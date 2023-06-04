@@ -7,13 +7,12 @@
 //interface Observer
 //{
 //    /**
-//     * @param $data
+//     * @param string $data
 //     * @return void
 //     */
 //    public function update(string $data): void;
 //}
 //
-//// Конкретный наблюдатель
 //class ConcreteObserver implements Observer
 //{
 //    /**

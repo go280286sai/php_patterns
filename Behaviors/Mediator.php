@@ -9,13 +9,12 @@ interface Mediator
 {
     /**
      * @param Component $sender
-     * @param $event string
+     * @param string $event
      * @return void
      */
     public function notify(Component $sender, string $event): void;
 }
 
-// Абстрактный компонент
 abstract class Component
 {
     /**
